@@ -42,7 +42,7 @@ public class Array {
 
 
         System.out.println("enter the word length for the search:");
-        Double lengthToUseForSearch = input.nextDouble();
+        int lengthToUseForSearch = input.nextInt();
 
         stringList.add("The");
         stringList.add("quick");
@@ -60,9 +60,6 @@ public class Array {
 
         System.out.println(printWords(strList, lengthToUseForSearch));
 
-
-
-
     }
 
 
@@ -76,7 +73,7 @@ public class Array {
         return total;
     }
 
-    public static ArrayList<String> printWords(ArrayList<String> arr, Double lengthToUseForSearch) {
+    public static ArrayList<String> printWords(ArrayList<String> arr, int lengthToUseForSearch) {
 
         ArrayList<String> modList = new ArrayList<>();
 
